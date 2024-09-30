@@ -15,9 +15,6 @@
     #define BTN_C_CHANNEL 8
     #define BTN_D_CHANNEL 9
 
-    #define CRSF_RX_PIN 17
-    #define CRSF_TX_PIN 16
-  
     #define COEF_FULL_SPEED 75
     #define COEF_LOW_SPEED  55
     
@@ -26,19 +23,22 @@
 
     #define COEF_BALANCE_R 1.15
 
-  // end CRSF/ELRS SETTINGS
+    #define CRSF_RX_PIN 17 // WHITE
+    #define CRSF_TX_PIN 16 // YELLOW
+  
+// end CRSF/ELRS SETTINGS
 
   // I/O SETTINGS
 
-    #define DAC_PIN_R 25
-    #define DAC_PIN_L 26
+    #define DAC_PIN_R 25 // RED
+    #define DAC_PIN_L 26 // RED
 
-    #define BRAKE_PIN 21
+    #define BRAKE_PIN 21 // GREEN
 
-    #define REVERSE_R_PIN 22
-    #define REVERSE_L_PIN 23
+    #define REVERSE_R_PIN 22 // BLUE
+    #define REVERSE_L_PIN 23 // BLUE
 
-    #define ON true
+    #define ON  true
     #define OFF false
 
     #define NONE    0
